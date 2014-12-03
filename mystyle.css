@@ -1,0 +1,261 @@
+@charset "utf-8";
+/*//////// this CS was designed by Romario G. Bailey////////////*/
+
+
+.topbar{
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(237, 255, 249);
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    color: darkcyan;
+    border-bottom: solid 2px rgb(216, 216, 216);
+    margin-bottom: 10px;
+}
+
+#topbar-search{
+    margin: 10px auto;
+    float: right;
+    width: 573px;
+    height: 21px;
+}
+#topbar-text-left{
+    margin: 5px 0 0 60px;
+    float: left;
+    width: 370px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#topbar-text-right{
+    margin: 12px 0 0 10px;
+    float: right;
+    width: auto;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-right: 115px;
+}
+
+div.topbar a {
+    text-decoration: none; /* No underlines on the link */
+    color: darkcyan;
+}
+
+img, object, embed, video {
+        margin-left: 100px;
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	clear: none;
+	float: none;
+}
+#top {
+}
+#resortInfo{
+    
+}
+#navBar {
+	clear: none;
+}
+#mainNav {
+	clear: none;
+	padding-left: 216px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+        max-width: 900px;
+}
+.menuItem {
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 15px;
+	margin-left: 2px;
+	padding-top: 1px;
+	padding-right: 4.5%;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	display: inline;
+	color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px 0px #999999;
+	text-transform: capitalize;
+	background-color: #3F007F;
+	list-style-type: none;
+	/* [disabled]list-style-position: outside; */
+	width: auto;
+	clear: right;
+	border-color: #CCCCCC;
+	border-style: solid;
+	-webkit-box-shadow: 1px 1px #999999;
+	box-shadow: 1px 1px #999999;
+	border-radius: 5px;
+}
+.infoTime {
+background-color: rgba(127, 255, 212, 0.47);
+border: rgb(98, 146, 130);
+box-shadow: 0px 0px 100px aquamarine;
+margin-top: 100px;
+margin-left: 15%;
+margin-right: auto;
+width: 1000px;
+    
+}
+.infoOut {
+background-color: rgba(127, 255, 212, 0.47);
+border: rgb(98, 146, 130);
+box-shadow: 0px 0px 100px aquamarine;
+font-weight: bold;
+    
+}
+#out1{
+    background-color: white;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.first {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	float: left;
+	text-align: left;
+	text-indent: 2px;
+	border-color: #9BC51A;
+	border-style: solid;
+        margin-left: 100px;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-radius: 120px;
+        box-shadow: 15px 11px 16px #4D339E;
+        background-color: white;
+        width: auto;
+}
+.second {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	float: right;
+	text-align: left;
+	text-indent: 2px;
+	border-color: #9BC51A;
+	border-style: solid;
+        margin-left: auto;
+        margin-right: 100px;
+        margin-bottom: auto;
+        border-radius: 120px;
+        box-shadow: 15px 11px 16px #4D339E;
+        background-color: white;
+        width: auto;
+}
+.third {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	float: left;
+	text-align: left;
+	text-indent: 2px;
+	border-color: #9BC51A;
+	border-style: solid;
+        margin-left: 100px;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-radius: 120px;
+        box-shadow: 15px 11px 16px #4D339E;
+        background-color: white;
+        width: auto;
+}
+.fourth {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	float: right;
+	text-align: left;
+	text-indent: 2px;
+	border-color: #9BC51A;
+	border-style: solid;
+        margin-left: auto;
+        margin-right: 100px;
+        margin-bottom: auto;
+        border-radius: 120px;
+        box-shadow: 15px 11px 16px #4D339E;
+        background-color: white;
+        width: auto;
+}
+.fifth {
+	padding-top: 0px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	float: left;
+	text-align: left;
+	text-indent: 2px;
+	border-color: #9BC51A;
+	border-style: solid;
+        margin-left: 100px;
+        margin-right: auto;
+        margin-bottom: auto;
+        border-radius: 120px;
+        box-shadow: 15px 11px 16px #4D339E;
+        background-color: white;
+        width: auto;
+}
+
+#footer {
+	
+	color: #3F007F;
+	margin-top: 25px;
+        
+}
+.foot {
+	text-align: center;
+	text-decoration: underline;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
